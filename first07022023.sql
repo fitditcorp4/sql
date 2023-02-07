@@ -10,6 +10,4 @@ hosp_patients BIGINT,hosp_patients_per_million REAL,weekly_icu_admissions BIGINT
 weekly_icu_admissions_per_million REAL,weekly_hosp_admissions BIGINT, weekly_hosp_admissions_per_million REAL,
 total_tests BIGINT
 );
-
-
 COPY covidDeath FROM '/home/nkem/SQL_Projects/sql/coviddeathsd.csv' DELIMITER ',' CSV HEADER;

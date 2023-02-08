@@ -11,3 +11,6 @@ weekly_icu_admissions_per_million REAL,weekly_hosp_admissions BIGINT, weekly_hos
 total_tests BIGINT
 );
 COPY covidDeath FROM '/home/nkem/SQL_Projects/sql/coviddeathsd.csv' DELIMITER ',' CSV HEADER;
+
+SELECT * FROM covidDeath;
+
